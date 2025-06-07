@@ -151,20 +151,20 @@
 
                 // Масив назв файлів .patt. Масив заповнюється в порядку додавання маркерів
                 // якщо замість .patt було додано баркод, на його місце в масив додається порожній рядок
-                const patternNames = ["" ,"" ,"pattern-teletype.patt"];
+                const patternNames = ["pattern-teletype.patt" ,"" ,""];
                 // Масив баркодів, заповнюється одночасно з масивом патернів
                 // якщо замість баркоду був доданий .patt, на його місце масив додається -1
-                const patternBarcode = [1 ,2 ,-1];
+                const patternBarcode = [-1 ,2 ,3];
                 // Масив типів контенту кожного маркера, заповнюється значеннями: зображення, модель, відео
                 const modes = ["image" ,"image" ,"image"];
                 // Масив файлів моделей, якщо немає моделі буде додано порожній рядок
                 const modelFiles = ["" ,"" ,""];
                 // Масив файлів зображень, якщо немає зображення буде додано також порожній рядок
-                const imageFiles = ["Title.png" ,"RoyalEarlHouse.png" ,"Teleprinter.jpg"];
+                const imageFiles = ["Teleprinter.jpg" ,"Title.png" ,"RoyalEarlHouse.png"];
                 // Масив файлів відео, якщо немає відео буде ще один порожній рядок
                 const videoFiles = ["" ,"" ,""];
                 // Масив файлів аудіо, якщо немає аудіо буде так само порожній рядок
-                const audioFiles = ["TitleVoice.mp3" ,"RoyalEarlHouseVoice.mp3" ,"TeleprinterVoice.mp3"];
+                const audioFiles = ["TeleprinterVoice.mp3" ,"TitleVoice.mp3" ,"RoyalEarlHouseVoice.mp3"];
                 // Масив опцій повтору аудіо та відео контенту, по дефолту для всіх буде false
                 const repeatOptions = ["false" ,"false" ,"false"];
   
